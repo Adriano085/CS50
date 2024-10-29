@@ -1,6 +1,6 @@
-def indoor_voice():
-  voice = input("> ")
-  print(voice.lower())
+def indoor_voice(indoor):
+  return indoor.lower()
 
 def main():
-  indoor_voice()
+  voice = input("> ")
+  indoor_voice(voice)
