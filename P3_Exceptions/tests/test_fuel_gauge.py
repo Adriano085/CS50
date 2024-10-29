@@ -1,5 +1,6 @@
 import unittest
-from fuel_gauge import consume
+from P3_Exceptions.fuel_gauge import consume
+
 
 class TestFuelGauge(unittest.TestCase):
     def test_consume_valid_fraction(self):
