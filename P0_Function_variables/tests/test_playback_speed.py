@@ -11,7 +11,7 @@ class TestYourFunction(unittest.TestCase):
         expected_output = "This...is...our...week...on...functions"
         self.assertEqual(playback(input_str), expected_output)
         
-    def test_2(self):
+    def test_3(self):
         input_str = "Let's implement a function called hello"
         expected_output = "Let's...implement...a...function...called...hello"
         self.assertEqual(playback(input_str), expected_output)
